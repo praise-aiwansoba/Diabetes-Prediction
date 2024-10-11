@@ -73,7 +73,7 @@ Overall, the Random forest classifier had the best predictions.
 Here are some insights and findings that was uncovered:
 
 1. **Prevalence of Diabetes:**
-   - The percentage of individuals diagnosed with diabetes were more than those without, highlighting the overall prevalence in the dataset.
+   - The percentage of individuals diagnosed without diabetes were more than those with diabetes, highlighting the overall prevalence in the dataset.
 2. **Distribution of Key Features:**
    - Glucose levels, BMI, age, and insulin levels showed distinct distributions, with specific ranges indicating higher diabetes risk.
 3. **Correlation Analysis:**
