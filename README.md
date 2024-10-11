@@ -41,7 +41,7 @@ for i,col in enumerate(['pregnancies', 'glucose', 'bloodpressure', 'skinthicknes
     sns.boxplot(x = col, data = diabetes)
 plt.show()
 ```
-You can find more information about the codes used on this notebook, [here](https://github.com/praise-aiwansoba/Diabetes-Prediction/blob/main/Diabetes%20Prediction.ipynb))
+You can find more information about the codes used on this notebook, [here](https://github.com/praise-aiwansoba/Diabetes-Prediction/blob/main/Diabetes%20Prediction.ipynb)
 
 ## Model Development
 
@@ -112,5 +112,6 @@ and BMI with suitable values inorder to ensure a complete dataset for building t
 few outliers but even then we can still see positive correlation between some features and the diabetes outcome.
 
 ## Conclusion
-By developing this predictive models using the dataset, we can identify individuals at high risk for diabetes, enabling proactive interventions.
+By developing this predictive model using the dataset, we can identify individuals at high risk for diabetes, enabling proactive interventions.
+To have a better understanding of the codes and models used in this project, check [NOTEBOOK](https://github.com/praise-aiwansoba/Diabetes-Prediction/blob/main/Diabetes%20Prediction.ipynb)
    
