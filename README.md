@@ -21,7 +21,7 @@ visualization and building of the machine learning model.
 
 ## Exploratory Data Analysis (EDA)
 
-During the EDA process, I examined the sales data to answer questions like:
+During the EDA process, I examined the dataset to answer questions like:
 - What is the distribution of diabetes outcomes (e.g., positive vs. negative)?
 - How do various features (like age, BMI, glucose levels) correlate with diabetes outcomes?
 - How does the insulin level vary among different age groups?
@@ -52,7 +52,7 @@ You can find more information about the codes used on this notebook, [here](http
 
 ## Model Evaluation
 
-The models were evaluated based on their accuracy, precision, recall and f1 score
+The models were evaluated based on their accuracy, precision, recall, f1 score and ROC_AUC Score.
 ### RandomForest Classifier
 - Accuracy: 75%
 - Precision: 81% for class 0 and 65% for class 1
@@ -73,20 +73,18 @@ Overall, the Random forest classifier had the best predictions.
 Here are some insights and findings that was uncovered:
 
 1. **Prevalence of Diabetes:**
-   - The percentage of individuals diagnosed with diabetes versus those without, highlighting the overall prevalence in the dataset.
+   - The percentage of individuals diagnosed with diabetes were more than those without, highlighting the overall prevalence in the dataset.
 2. **Distribution of Key Features:**
-   - Glucose levels, BMI, age, and insulin levels often show distinct distributions, with specific ranges indicating higher diabetes risk.
+   - Glucose levels, BMI, age, and insulin levels showed distinct distributions, with specific ranges indicating higher diabetes risk.
 3. **Correlation Analysis:**
-   - Strong correlations between certain features, such as glucose levels and diabetes outcomes, may be observed, indicating important relationships.
+   - Strong correlations between certain features, such as glucose levels and diabetes outcomes, was observed, indicating important relationships.
 4. **Impact of BMI:**
    - Higher BMI values tend to correlate with an increased likelihood of diabetes, reinforcing the link between obesity and diabetes risk.
 5. **Age Factor:**
-   - Older individuals may have a higher incidence of diabetes, showcasing the importance of age as a risk factor.
-6. **Gender Differences:**
-   - Differences in diabetes prevalence or related measurements between genders might emerge, suggesting varying risk factors or health behaviors.
-7. **Skin Thickness and Insulin:**
+   - Older individuals tend to have a higher incidence of diabetes, showcasing the importance of age as a risk factor.
+6. **Skin Thickness and Insulin:**
    - Relationships between skin thickness and insulin levels may highlight metabolic health indicators relevant to diabetes risk.
-8. **Outliers:**
+7. **Outliers:**
    - The presence of outliers in features like insulin levels or glucose can indicate measurement errors or unique cases that may require further investigation.
   
 ## Recommendations
