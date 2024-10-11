@@ -41,7 +41,7 @@ for i,col in enumerate(['pregnancies', 'glucose', 'bloodpressure', 'skinthicknes
     sns.boxplot(x = col, data = diabetes)
 plt.show()
 ```
-You can find more information about the codes used on this notebook, [here](https://github.com/praise-aiwansoba/Diabetes-Prediction/commit/e4d6c0738ab10d8ab65bfb596cef378d769fec29)
+You can find more information about the codes used on this notebook, [here]([https://github.com/praise-aiwansoba/Diabetes-Prediction/commit/e4d6c0738ab10d8ab65bfb596cef378d769fec29](https://github.com/praise-aiwansoba/Diabetes-Prediction/blob/main/Diabetes%20Prediction.ipynb))
 
 ## Model Development
 
