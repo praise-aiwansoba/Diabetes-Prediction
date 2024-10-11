@@ -1,5 +1,5 @@
-# Diabetes-Prediction
-![Alt text](URL-of-your-image)
+# Diabetes Prediction
+![pexels-n-voitkevich-6942082](https://github.com/user-attachments/assets/7de1604d-4dc3-4bf0-a4b7-2280c0299524)
 
 ## Project Overview
 
@@ -41,28 +41,33 @@ for i,col in enumerate(['pregnancies', 'glucose', 'bloodpressure', 'skinthicknes
     sns.boxplot(x = col, data = diabetes)
 plt.show()
 ```
+You can find more information about the codes used on this notebook, [here]()
+
 ## Model Development
 
 - The data was converted to a uniform scale using the standard scalar
 - The features and target were split into train and test variables using the train_test_split
 - The RandomForest Classifier and KNearestNeighbor Classifiers were used to develop the model
+- I performed hyperparameter tuning using GridSearchCV to get the best parameters for the knn model
 
 ## Model Evaluation
 
-The models were evaluated based on their accuracy, precision, recall, f1 score and auc score
+The models were evaluated based on their accuracy, precision, recall and f1 score
 ### RandomForest Classifier
-- Accuracy:
-- Precision:
-- Recall:
-- F1 Score:
-- AUC:
+- Accuracy: 75%
+- Precision: 81% for class 0 and 65% for class 1
+- Recall: 81% for class 0 and 65% for class 1
+- F1 Score: 81% for class 0 and 65% for class 1
+- ROC_AUC Score: 73%
 
 ### KNearestNeighbor Classifier
-- Accuracy:
-- Precision:
-- Recall:
-- F1 Score:
-- AUC:
+- Accuracy: 74%
+- Precision: 77% for class 0 and 66% for class 1
+- Recall:  85% for class 0 and 54% for class 1
+- F1 Score: 81% for class 0 and 59% for class 1
+- ROC_AUC Score: 69%
+  
+Overall, the Random forest classifier had the best predictions.
 
 ## Insights/Findings
 Here are some insights and findings that was uncovered:
